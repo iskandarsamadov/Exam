@@ -31,7 +31,6 @@ export default function Careers() {
 
               <div className="relative">
                 <button onClick={() => setLangMenuOpen(!langMenuOpen)} className="px-4 py-2 text-sm font-semibold text-gray-900 bg-gray-100 rounded-full hover:bg-orange-100 hover:text-orange-600 transition cursor-pointer flex items-center gap-2">
-                  <span>{language === 'en' ? '🇺🇸' : '🇺🇿'}</span>
                   {language === 'en' ? 'EN' : 'UZ'}
                 </button>
                 {langMenuOpen && (

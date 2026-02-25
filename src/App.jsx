@@ -4,6 +4,7 @@ import Contact from './Contact'
 import About from './About'
 import Careers from './Careers'
 import Services from './Services'
+import Blog from './Blog'
 
 import Logo1 from './assets/Logo-1.svg'
 import Logo2 from './assets/Logo-2.svg'
@@ -142,6 +143,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
@@ -175,7 +177,6 @@ function Home() {
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 className="px-4 py-2 text-sm font-semibold text-gray-900 bg-gray-100 rounded-full hover:bg-orange-100 hover:text-orange-600 transition cursor-pointer flex items-center gap-2"
               >
-                <span>{language === 'en' ? '🇺🇸' : '🇺🇿'}</span>
                 {language === 'en' ? 'EN' : 'UZ'}
               </button>
               {langMenuOpen && (
