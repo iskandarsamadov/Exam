@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Load Layout font from local files (place Layout.woff2 in src/assets/fonts/) */
+@font-face {
+	font-family: 'Layout';
+	src: url('./assets/fonts/Layout.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Apply Layout globally. If you don't have the font file, place it at src/assets/fonts/Layout.woff2 */
+html, body, #root, .app, * {
+	font-family: 'Layout', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
