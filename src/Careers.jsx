@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
-import HeaderImage1 from './assets/Header Image (1).png'
-import BlogImage from './assets/Image.svg'
-import BlogImage1 from './assets/Image (1).svg'
-import BlogImage2 from './assets/Image (2).svg'
+// import HeaderImage1 from './assets/Header Image (1).png'
+// import BlogImage from './assets/Image.svg'
+// import BlogImage1 from './assets/Image (1).svg'
+// import BlogImage2 from './assets/Image (2).svg'
 
 export default function Careers() {
   const [language, setLanguage] = useState('en')
