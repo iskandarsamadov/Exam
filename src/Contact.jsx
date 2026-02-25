@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
-import MapSvg from './assets/Map.svg'
+import MapSvg from './assets/Map-1.svg'
 
 const translations = {
   en: {

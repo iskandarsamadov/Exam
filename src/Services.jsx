@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import HeaderImage2 from './assets/Header Image (2).png'
-import Feature1 from './assets/Feature 1 Image.png'
-import Feature2 from './assets/Feature 2 Image.png'
-import Feature3 from './assets/Feature 3 Image.png'
-import Feature4 from './assets/Featue 4 Image.png'
-import Feature5 from './assets/Feature 5 Image.png'
-import Avatar4 from './assets/Image (4).svg'
-import VideoThumb from './assets/Image (3).svg'
-import BlogImage from './assets/Image.svg'
-import BlogImage1 from './assets/Image (1).svg'
-import BlogImage2 from './assets/Image (2).svg'
+import HeaderImage2 from './assets/Header-Image-2.png'
+import Feature1 from './assets/Feature-1-Image.png'
+import Feature2 from './assets/Feature-2-image.png'
+import Feature3 from './assets/Feature-3-Image.png'
+import Feature4 from './assets/Featue-4-Image.png'
+import Feature5 from './assets/Feature-5-Image.png'
+import Avatar4 from './assets/Image-4.svg'
+import VideoThumb from './assets/Image-3.svg'
+import BlogImage from './assets/Image-5.svg'
+import BlogImage1 from './assets/Image-1.svg'
+import BlogImage2 from './assets/Image-2.svg'
 
 export default function Services() {
   const translations = {

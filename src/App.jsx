@@ -5,21 +5,21 @@ import About from './About'
 import Careers from './Careers'
 import Services from './Services'
 
-import Logo1 from './assets/Logo (1).svg'
-import Logo2 from './assets/Logo (2).svg'
-import Logo3 from './assets/Logo (3).svg'
-import ImagePng from './assets/Image.png'
-import ImageSvg from './assets/Image.svg'
-import Image1Svg from './assets/Image (1).svg'
-import Image2Svg from './assets/Image (2).svg'
-import Icon1 from './assets/Icon (1).svg'
-import Icon2 from './assets/Icon (2).svg'
-import Icon3 from './assets/Icon (3).svg'
-import AboutImagePng from './assets/About Image.png'
-import ServiceImage from './assets/Service image.png'
-import Image2Png from './assets/Image (2).png'
-import Image4Svg from './assets/Image (4).svg'
-import Image3Svg from './assets/Image (3).svg'
+import Logo1 from './assets/Logo-1.svg'
+import Logo2 from './assets/Logo-2.svg'
+import Logo3 from './assets/Logo-3.svg'
+import ImagePng from './assets/Image-3.png'
+import ImageSvg from './assets/Image-5.svg'
+import Image1Svg from './assets/Image-1.svg'
+import Image2Svg from './assets/Image-2.svg'
+import Icon1 from './assets/Icon-1.svg'
+import Icon2 from './assets/Icon-2.svg'
+import Icon3 from './assets/Icon-3.svg'
+import AboutImagePng from './assets/About-Image.png'
+import ServiceImage from './assets/Service-image.png'
+import Image2Png from './assets/Image-2.png'
+import Image4Svg from './assets/Image-4.svg'
+import Image3Svg from './assets/Image-3.svg'
 
 const translations = {
   en: {
@@ -230,20 +230,20 @@ function Home() {
               <p className="text-sm text-gray-500 mb-4">{t.workedWith}</p>
               <div className="flex flex-col sm:flex-row gap-8 items-start sm:items-center">
                 <div className="flex items-center gap-2">
-                  <img src="/src/assets/Logo (2).svg" alt="logo" className="w-30 h-16" />
+                  <img src={Logo2} alt="logo" className="w-30 h-16" />
                 </div>
                 <div className="flex items-center gap-2">
-                  <img src="/src/assets/Logo (3).svg" alt="logo" className="w-30 h-16" />
+                  <img src={Logo3} alt="logo" className="w-30 h-16" />
                 </div>
                 <div className="flex items-center gap-2">
-                  <img src="/src/assets/Logo (1).svg" alt="logo" className="w-30 h-16" />
+                  <img src={Logo1} alt="logo" className="w-30 h-16" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative h-96 lg:h-auto flex justify-center items-center">
-            <img src="/src/assets/Image.png" alt="Professional" className="w-[934px] h-[645px] object-cover rounded-lg relative z-10" />
+            <img src={ImagePng} alt="Professional" className="w-[934px] h-[645px] object-cover rounded-lg relative z-10" />
           </div>
         </div>
       </section>
@@ -263,7 +263,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div className="bg-gray-50 rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image.svg" alt="Business strategy" className="w-[400px] h-[230px] object-cover" />
+              <img src={ImageSvg} alt="Business strategy" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.businessStrategy}</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -276,7 +276,7 @@ function Home() {
             </div>
 
             <div className="bg-gray-50 rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image (1).svg" alt="Digitalization" className="w-[400px] h-[230px] object-cover" />
+              <img src={Image1Svg} alt="Digitalization" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.digitalization}</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -289,7 +289,7 @@ function Home() {
             </div>
 
             <div className="bg-gray-50 rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image (2).svg" alt="Risk assessment" className="w-[400px] h-[230px] object-cover" />
+              <img src={Image2Svg} alt="Risk assessment" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.riskAssessment}</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -326,7 +326,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div className="bg-white rounded-2xl p-8 hover:shadow-lg transition">
-              <img src="/src/assets/Icon (1).svg" alt="Invoicing" className="w-12 h-12 mb-6" />
+              <img src={Icon1} alt="Invoicing" className="w-12 h-12 mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.invoicing}</h3>
               <p className="text-gray-600 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
@@ -334,7 +334,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 hover:shadow-lg transition">
-              <img src="/src/assets/Icon (2).svg" alt="Support" className="w-12 h-12 mb-6" />
+              <img src={Icon2} alt="Support" className="w-12 h-12 mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.support}</h3>
               <p className="text-gray-600 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
@@ -342,7 +342,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 hover:shadow-lg transition">
-              <img src="/src/assets/Icon (3).svg" alt="Surveying" className="w-12 h-12 mb-6" />
+              <img src={Icon3} alt="Surveying" className="w-12 h-12 mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{t.surveying}</h3>
               <p className="text-gray-600 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,
@@ -392,7 +392,7 @@ function Home() {
               </div>
 
               <div className="relative rounded-2xl overflow-hidden h-96 lg:h-full">
-                <img src="/src/assets/About Image.png" alt="Experience" className="w-full h-full object-cover" />
+                <img src={AboutImagePng} alt="Experience" className="w-full h-full object-cover" />
               </div>
             </div>
 
@@ -439,7 +439,7 @@ function Home() {
               </div>
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden">
-                  <img src="/src/assets/Service image.png" alt="Business Strategy" className="w-[472px] h-[466px] object-cover" />
+                  <img src={ServiceImage} alt="Business Strategy" className="w-[472px] h-[466px] object-cover" />
                 </div>
               </div>
 
@@ -453,7 +453,7 @@ function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen lg:min-h-96">
 
           <div className="h-96 lg:h-full overflow-hidden">
-            <img src="/src/assets/Image (2).png" alt="Professional" className="w-full h-full object-cover" />
+            <img src={Image2Png} alt="Professional" className="w-full h-full object-cover" />
           </div>
 
           <div className="bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center p-8 lg:p-20">
@@ -486,7 +486,7 @@ function Home() {
               </p>
 
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Image (4).svg" alt="Avatar" className="w-16 h-16 rounded-full object-cover" />
+                <img src={Image4Svg} alt="Avatar" className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <h4 className="text-lg font-bold text-[#063255]">Chikelu Neo</h4>
                   <p className="text-orange-500 font-semibold text-sm">{t.ceoAt}</p>
@@ -495,7 +495,7 @@ function Home() {
             </div>
 
             <div className="relative rounded-3xl overflow-hidden h-96 lg:h-full">
-              <img src="/src/assets/Image (3).svg" alt="Testimonial" className="w-full h-full object-cover" />
+              <img src={Image3Svg} alt="Testimonial" className="w-full h-full object-cover" />
             </div>
 
           </div>
@@ -513,7 +513,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image.svg" alt="Blog post" className="w-[400px] h-[230px] object-cover" />
+              <img src={ImageSvg} alt="Blog post" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {t.digitalize}
@@ -528,7 +528,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image (1).svg" alt="Blog post" className="w-[400px] h-[230px] object-cover" />
+              <img src={Image1Svg} alt="Blog post" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {t.process}
@@ -543,7 +543,7 @@ function Home() {
             </div>
 
             <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition">
-              <img src="/src/assets/Image (2).svg" alt="Blog post" className="w-[400px] h-[230px] object-cover" />
+              <img src={Image2Svg} alt="Blog post" className="w-[400px] h-[230px] object-cover" />
               <div className="p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {t.leaders}
